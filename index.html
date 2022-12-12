@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;400;700&display=swap" rel="stylesheet"> 
+  <script src="script.js"></script>
+  <title>Snap | Remote Work</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="nav-logo"><img src="images/logo.svg"></a>
+    <div class="dropdown">
+      <button class="dropbtn" id="featuresbtn" onclick="dropFeaturesbtn()">Features
+        <span><img src="images/icon-arrow-down.svg"></span>
+      </button>
+      <div class="dropdown-content" id="featuresDropdown">
+        <a href="#todolist"><i><img src="images/icon-todo.svg"></i>  Todo List</a>
+        <a href="#calendars"><i><img src="images/icon-calendar.svg"></i>  Calendars</a>
+        <a href="#reminders"><i><img src="images/icon-reminders.svg"></i>  Reminders</a>
+        <a href="#planning"><i><img src="images/icon-planning.svg"></i>  Planning</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" id="companybtn" onclick="dropCompanybtn()">Company
+        <span><img src="images/icon-arrow-down.svg"></span>
+      </button>
+      <div class="dropdown-content" id="companyDropdown">
+        <a href="#history">History</a>
+        <a href="#team">Our Team</a>
+        <a href="#blog">Blog</a>
+      </div>
+    </div>
+    <a href="#careers">Careers</a>
+    <a href="#about">About</a>
+    <div class="right-nav">
+      <a href="#login">Login</a>
+      <a href="#register" id="register">Register</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="split left">
+      <div class="main_text">
+        <h1 style="font-size: 64px;">Make remote work</h1>
+        <p style="font-size: 18px; color: hsl(0, 0%, 41%);">Get your teams to work in sync, no matter your location.
+          Streamline processes, create team rituals, and watch
+          productivity soar.
+        </p>
+        <button id="learnbtn">Learn more</button>
+        <div class="trusted-by">
+          <div class="row">
+            <div class="column">
+              <img src="images/client-databiz.svg">
+            </div>
+            <div class="column">
+              <img src="images/client-audiophile.svg">
+            </div>
+            <div class="column">
+              <img src="images/client-meet.svg">
+            </div>
+            <div class="column">
+              <img src="images/client-maker.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="split right">
+      <img src="images/image-hero-desktop.png">
+    </div>
+  </main>
+</body>
+</html>

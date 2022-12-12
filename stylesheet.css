@@ -1,0 +1,131 @@
+.navbar {
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    padding: 8px 8px;
+    margin: 0 10px 0 20px;
+    /* font-family: 'Epilogue', sans-serif; */
+    font-size: 16px;
+}
+
+.navbar .right-nav {
+    float: right;
+}
+
+.navbar .nav-logo {
+    margin: 0 10px 0 10px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+    background-color: inherit;
+    display: inline-block;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+    outline: none;
+    padding: 8px 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 20px 0 0 0;
+}
+
+.dropdown-content a {
+    display: block;
+    text-align: center;
+    float: none;
+    color: hsl(0, 0%, 8%);
+    text-decoration: none;
+    padding: 0 0 10px 0;
+    /* font-family: 'Epilogue', sans-serif; */
+    font-size: 14px;
+}
+ 
+.show {
+    display: block;
+}
+
+.right-nav #register {
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* height: 6px; */
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    /* overflow-x: hidden; */
+    top: 20px;
+    padding-top: 20px;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right img {
+    height: 70%;
+    width: 55%;
+    padding: 80px;
+    object-fit: contain;
+}
+
+.main_text {
+    /* padding-top: 50px; */
+    top: 18%;
+    left: 20%;
+    position: absolute;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#learnbtn {
+    border: 2px solid black;
+    padding: 14px 28px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.trusted-by {
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
